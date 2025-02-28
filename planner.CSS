@@ -1,0 +1,463 @@
+
+body{
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    background-color: white;
+    position: fixed;
+display: flex;
+padding: 10px;
+width: 80%;
+margin-left: 120px;
+}
+
+   .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 0%;
+   }
+
+
+   .ul1 li {
+  display: flex;
+  text-decoration: none;
+   }
+
+   .liens ul {
+    display: flex;
+   }
+
+   .ul1 ul{
+    display: none;
+    position: absolute;
+ }
+
+ li ul li {
+    padding: 5px; /* Optionnel : espace intérieur pour les éléments
+ }
+ li ul {
+    background-color: #f0f0f0; /* Couleur d'arrière-plan */
+    display: none;
+}
+
+li:hover ul {
+    background-color: aqua;
+    display: block;
+}
+
+
+
+ .ul1 ul li:hover > ul{
+    display: block;
+    
+ }
+
+   .liens a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+   }
+   #couleur{
+    color: rgb(26, 180, 154);
+   }
+ .liens a:hover{
+    color: green;
+}
+.section0 { 
+        text-align: center; /* Centre le texte à l'intérieur de la section */
+        margin: 10px auto; /* Centre la section elle-même */
+        width: 80%; /* Vous pouvez ajuster la largeur selon vos besoins */
+        font-size: 38px;
+    }
+    .section0 .p0{
+        color:rgb(26, 180, 154);
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: center; /* Centre les colonnes horizontalement */
+       font-size: 20px;
+   margin-left: 30px;
+   margin: 20px 0;
+    }
+
+
+
+    .section2{
+        display: flex;
+        justify-content: center; /* Espace égal entre les colonnes */
+        color: white;
+        padding: 40px;
+    }
+
+    .p-img{
+        width: 18px;
+    }
+    
+    .bloc1{
+        width: 250px;
+        background-color: #05b405;
+        border-radius: 10px;
+        text-align: left;
+        padding: 5px 30px;
+        margin-right: 10px;
+    }
+
+    .bloc2{
+        width: 250px;
+        background-color: blue;
+        border-radius: 10px;
+        text-align: left;
+        padding: 5px 30px;
+        margin-right: 10px;
+    }
+
+    .bloc3{
+        width: 250px;
+        background-color: black;
+        border-radius: 10px;
+        text-align: left;
+        padding: 5px 30px;
+        margin-right: 10px;
+    }
+    .bloc1 select{
+        background-color: #05b405;
+        border: none;
+    }
+
+    .bloc2 select{
+        background-color: blue;
+        border: none;
+    }
+
+    .bloc3 select{
+        background-color: black;
+        border: none;
+    }
+
+    .bloc1,select{
+        color: white;
+    }
+    .container {
+   
+        display: flex;
+        justify-content: space-between; /* Espace égal entre les colonnes */
+        width: 80%; /* Ajustez la largeur selon vos besoins */
+        text-align: left;
+    }
+    
+    .column {
+        flex: 1; /* Chaque colonne prend une part égale de l'espace disponible */
+        margin: 0 10px; /* Ajoute un espace entre les colonnes */
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+.section1,img {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.section1 a{
+     text-decoration: none;
+}
+.section3{
+    width:70%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 130px;
+    margin-left: 120px;
+}
+.section3 div table{
+    margin: 0 10px 0 250px;
+}
+
+.section3 div table tr td img{
+    margin: 15px 33px;
+}
+.section3 div table tr td a:hover{
+    filter:green;
+}
+
+.section3 img{
+    width: 100px; 
+}
+
+.di{
+    width: 30px;
+    height: 50px;
+}
+.p1 {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(92, 241, 92);
+    letter-spacing: 1.3px;
+}
+
+button{
+    margin:0px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn-b{
+    background-color: white;
+    border: solid white;
+    color: gray;
+}
+
+.btn1{
+    background-color: rgb(38, 38, 217);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+#image{
+    display: flex;
+    justify-content: space-between;
+}
+figure {
+    display: block;
+}
+figure img {
+    width: 350px;
+    height: 200px;
+    display: block;
+}
+/*couleur des mots en dessous des images*/
+.cle {
+  color: gray;
+ }
+ /*supression du soulignement*/
+.divA a{
+    text-decoration: none; 
+   }
+/*l'alignement des mots en dessous des images*/
+.divA1{
+display: flex;
+gap: 100px;
+padding: 0 0 0 70px;
+color: white;
+}
+
+/*application du button sur le mot a droite*/
+span{padding: 7px;
+    background-color: blue;
+    border-bottom: blue;
+    border-radius: 5px;
+}
+
+
+/*afficher une couleur aux liens au passage de la souris*/
+
+a img {
+    transition: color 0.3s ease;
+    color: #05b405;
+}
+
+a img:hover {
+    color:green;
+    
+}
+
+a img {
+    transition: border 0.3s ease;
+}
+
+a img:hover {
+    border: 2px solid green;
+    color: #05b405;
+}
+/*alignée les elements 3 par lignes
+#bloc-img {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.divA{
+    background-color: #05b405;
+    border: 1px solid #f0f0f0;
+}*/
+/*l'organisation des images 3 par lignes*/
+.bloc-imgs{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: white;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 120px;
+
+}
+
+.divAs{
+    background-color: #f0f0f0;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 0%;
+}
+.divAs a img{
+    height: 300px;
+}
+.divAs button{
+    color: #f0f0f0;
+    background-color: blue;
+    font-size: 1em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: solid, white;
+}
+button.b1{
+    color: grey;
+    background-color: floralwhite;
+    font-size: 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.section4{
+    width: 100%;
+    background-color: aqua;
+    display: inline-flex;
+}
+
+.blocA div h5{
+    font-size: 20px;
+    color: #05b405;
+    letter-spacing: 3px;
+ }
+
+ .blocA div p{
+    font-size: 20px;
+    letter-spacing: 1.3px;
+ }
+
+ #M-image{
+width: 200px;
+margin:200px 0 0 0px;
+ }
+
+.blocA1{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: space-around;
+margin:10px;
+gap: 20px;
+grid-column: 10px;
+}
+
+.blocB {
+display: flex;
+gap: 10px;
+margin: 0 50px 0 0px;
+}
+
+.blocB .blocA1{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-13p {
+ background-color: white;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.bloc-13p h5 {
+    color: #05b405;
+    font-size: 20px;
+}
+#dfle{
+    margin: 0px 0px 0 400px;
+}
+.section5{
+    width: 80%;
+    margin-left: 120px;
+}
+
+.bloc-13p img{
+    width: 30px;
+}
+
+.section5 div h5{
+    color: #05b405;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.footer {
+    width: 80%;
+    margin: 200px 0px;
+    margin-left: 120px;
+
+}
+.P2{
+    color: black;
+    letter-spacing: 1.2px;
+}
+.footer div button{
+    background-color: blue;
+    border-bottom: white;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer div button a{
+    background-color: blue;
+}
+
+.footer a{
+    background-color: white;
+    text-decoration: none;
+}
+
+
+/*.bloc {
+    background-color: white;
+    display: flex;
+    margin-bottom: 10PX;;
+    flex: content;
+    justify-content: space-between;
+    width: 100%;
+    text-align: justify;
+}
+
+footer{
+    background-color: white;
+  color: black;
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+  margin: 0px 170px 100px 170px;
+   
+  }
+
+  #foot {
+  float: left;
+  width: 23%;
+  padding: 10px 0px 50px 0px;
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 5px;
+  text-align: justify;
+  }*/
+  
